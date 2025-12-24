@@ -1,0 +1,30 @@
+site_name: User Guide
+site_url: https://katsudagroup.github.io/tpn-calculator-docs
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - HOME: index.md
+  - Tutorial: tutorial.md
+  - Normalization: normalization.md
+plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ja
+          name: 日本語
+          default: false
+          build: true
+  - macros
+
+extra:
+  product:
+    official_name: "TPN Calculator"
+  app_url: https://tpn-calculator.katsudagroup-biotool.com
