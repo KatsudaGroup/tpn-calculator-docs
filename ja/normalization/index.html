@@ -1,0 +1,674 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/normalization/">
+      
+      
+        <link rel="prev" href="../tutorial/">
+      
+      
+      
+        
+          <link rel="alternate" href="../../normalization/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="ja">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Normalization - User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../" title="User Guide" class="md-header__button md-logo" aria-label="User Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            User Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Normalization
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../normalization/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="User Guide" class="md-nav__button md-logo" aria-label="User Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    User Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HOME
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normalization
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normalization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        概要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        操作方法
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="操作方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        シグナルの読み込み
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        シグナルのアノテーション
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        早い方法：番号による一括指定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正規化計算の実行
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        描画
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        概要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        操作方法
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="操作方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        シグナルの読み込み
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        シグナルのアノテーション
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        早い方法：番号による一括指定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正規化計算の実行
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        描画
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">総タンパク質量を揃えた描画</h1>
+<h2 id="_2">概要</h2>
+<p>Total Protein Normalization (TPN) の作業フローは、以下のようになります。</p>
+<ol>
+<li>
+<p><strong>各データ系列の対応づけ：</strong><br />
+   各系列にアノテーションを付与します。<br />
+   まず、各系列が <code>total</code>（総タンパク質）か <code>target</code>（標的タンパク質）かを指定し、さらに <code>target</code> と対応する <code>total</code> 系列を紐づけます。</p>
+</li>
+<li>
+<p><strong>スケーリングファクターの計算と補正：</strong><br />
+<code>total</code> 系列の総シグナル量が揃うように、すべての系列に対してスケーリングファクターを計算します。<br />
+   このファクターを各系列に掛け、補正後のシグナル値を求めます。</p>
+</li>
+<li>
+<p>描画の実行</p>
+</li>
+</ol>
+<hr />
+<h2 id="_3">操作方法</h2>
+<h3 id="_4">シグナルの読み込み</h3>
+<p>メインパネルで、シグナルファイルを読み込みます。</p>
+<p>読み込みが完了したら <strong>[Normalization] タブ</strong> に移動し、正規化に関する一連の設定と計算を行います。</p>
+<p><img alt="normalization_tab" src="../../images_normalization/load.png" /></p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>サンプルファイルを読み込みます。</p>
+</div>
+<hr />
+<h3 id="_5">シグナルのアノテーション</h3>
+<p>まず、<strong>Series Mapping for Normalization</strong> セクションのテーブルに、読み込んだ各データ系列の情報を入力します。</p>
+<p>TPN を行うためには、以下の情報が必要です。</p>
+<ul>
+<li><strong>type 列：</strong> 各系列の種類（標的タンパク質（Target Protein） / 総タンパク質（Total Protein））</li>
+<li><strong>Associated Series 列：</strong> 各標的系列に対応する総タンパク系列</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>このサンプルでは、"P1:1"〜"P1:7" が標的タンパク質、"P2:1"〜"P2:7" が総タンパク質であり、それぞれ順番に対応するため、以下のように設定します。</p>
+<p><img alt="set_configuration" src="../../images_normalization/configuration.png" /></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>標的タンパク質の系列で <code>Associated Series</code> を空欄のままにした場合、その系列は正規化の対象外になります。<br />
+これは、分子量マーカーなど、総タンパク質系列との対応が不要な系列が存在する場合に便利です。</p>
+</div>
+<hr />
+<h3 id="_6">早い方法：番号による一括指定</h3>
+<p>系列数が多い場合は、<strong>Batch Annotation</strong> メニューを使ってまとめて設定できます。</p>
+<p>2 つの入力欄があり、それぞれ次の役割を持ちます。</p>
+<ul>
+<li><strong>左側の入力欄：</strong> 総タンパク質系列をまとめて指定  </li>
+<li><strong>右側の入力欄：</strong> 左側で指定した総タンパク質系列に対応する標的タンパク質系列を指定</li>
+</ul>
+<p>総タンパク質系列をまとめて指定するには、左の入力欄に、"Series Configuration" の左側に表示されるインデックス番号を入力します。<br />
+番号は <strong>コンマ区切り</strong> または <strong>範囲指定（例：<code>8-14</code>）</strong> に対応しています。</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><strong>例1：8〜14 の系列を総タンパク質系列として一括指定する場合</strong></p>
+<p>左の入力欄に <code>8,9,10,11,12,13,14</code> または <code>8-14</code> と入力します。<br />
+<img alt="input" src="../../images_normalization/batch_normalization1.png" /></p>
+</div>
+<p>さらに、指定した総タンパク質系列に対応する標的タンパク質系列も、右側の入力欄でまとめて設定できます。<br />
+右側には、左側と <strong>同じ個数・同じ順番</strong> でインデックス番号を入力します。</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><strong>例2：8〜14 を総タンパク質系列とし、それぞれに 1〜7 の標的系列を対応させる場合</strong></p>
+<p>左に <code>1-7</code>、右に <code>8-14</code> を入力し、Enter を押します。<br />
+<img alt="input" src="../../images_normalization/batch_normalization2.png" /></p>
+</div>
+<hr />
+<h3 id="_7">正規化計算の実行</h3>
+<p>系列の対応設定が完了したら、正規化計算を行います。<br />
+設定項目は以下のとおりです。</p>
+<ul>
+<li>
+<p><strong>Total Signal: Normalize to（必須）：</strong><br />
+  総シグナル量をどの系列に合わせるかを指定します。</p>
+</li>
+<li>
+<p><strong>Set Signal Calculation Range（任意）：</strong><br />
+  正規化に使用する分子量範囲を指定します。<br />
+  指定範囲外のシグナルは計算から除外されます。</p>
+</li>
+<li>
+<p><strong>Stop integration at first negative value：</strong><br />
+  このオプションをオンにすると、各系列の総シグナル量を計算する際、<br />
+  低分子量側で負のシグナル値が出た時点で積分（総和計算）を打ち切ります。</p>
+</li>
+</ul>
+<p>設定が完了したら <strong>[Calculate Normalized Signal]</strong> ボタンを押して計算を実行します。</p>
+<p>計算が終了すると、ページ下部に <strong>Summary</strong> が表示され、<br />
+さらに <strong>[Normalized Data] タブ</strong> に計算結果が出力されます。</p>
+<p><img alt="normalize_calculation" src="../../images_normalization/normalization.png" /></p>
+<hr />
+<h3 id="_8">描画</h3>
+<p>正規化計算が完了したらメインのコントロールパネルに戻り、<br />
+描画モードとして <strong><code>Plot Normalized Data by Total Proteins</code></strong> を選択します。</p>
+<p>その他の描画設定は、生データを描画する場合と同様です。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

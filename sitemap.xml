@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://katsudagroup.github.io/tpn-calculator-docs/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://katsudagroup.github.io/tpn-calculator-docs/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/"/>
+    </url>
+    <url>
+        <loc>https://katsudagroup.github.io/tpn-calculator-docs/normalization/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://katsudagroup.github.io/tpn-calculator-docs/normalization/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/normalization/"/>
+    </url>
+    <url>
+        <loc>https://katsudagroup.github.io/tpn-calculator-docs/tutorial/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://katsudagroup.github.io/tpn-calculator-docs/tutorial/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/tutorial/"/>
+    </url>
+    <url>
+        <loc>https://katsudagroup.github.io/tpn-calculator-docs/ja/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://katsudagroup.github.io/tpn-calculator-docs/"/>
+    </url>
+    <url>
+        <loc>https://katsudagroup.github.io/tpn-calculator-docs/ja/normalization/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/normalization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://katsudagroup.github.io/tpn-calculator-docs/normalization/"/>
+    </url>
+    <url>
+        <loc>https://katsudagroup.github.io/tpn-calculator-docs/ja/tutorial/</loc>
+        <lastmod>2025-12-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://katsudagroup.github.io/tpn-calculator-docs/ja/tutorial/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://katsudagroup.github.io/tpn-calculator-docs/tutorial/"/>
+    </url>
+</urlset>
