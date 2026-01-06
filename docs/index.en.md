@@ -11,4 +11,4 @@ The application runs directly in your web browser. No installation is required.
 
 Tutorial sample data can be downloaded from the link below.
 
-<a href="../samples/example.txt" download>Download example.txt</a>
+<a href="samples/example.txt" download>Download example.txt</a>

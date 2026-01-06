@@ -13,4 +13,4 @@ total protein normalization（TPN）** を行うための Web アプリケーシ
 
 チュートリアル用のサンプルデータはここから入手可能です。
 
-<a href="../samples/example.txt" download>example.txt をダウンロード</a>
+<a href="samples/example.txt" download>example.txt をダウンロード</a>
